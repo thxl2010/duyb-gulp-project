@@ -1,0 +1,23 @@
+{
+  "name": "duyb-gulp-project",
+  "version": "1.0.0",
+  "description": "gulp project use cli duyb-cli-gulp",
+  "main": "index.js",
+  "scripts": {
+    "clean": "duyb-cli-gulp clean",
+    "dev": "duyb-cli-gulp dev",
+    "build": "duyb-cli-gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "author": "Duyb <1255248666@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^4.6.0",
+    "duyb-cli-gulp": "^1.0.0",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
+  }
+}
